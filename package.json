@@ -1,13 +1,14 @@
 {
   "name": "num-to-word",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sixteen numbers is all I need",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
-  "respository": {
-      "git": "https://github.com/devjunkORG/num2word.git"
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/devjunkORG/num2word"
   },
   "author": "Vicente Canales <me@devjunk.org>",
   "license": "MIT",

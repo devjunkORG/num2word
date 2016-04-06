@@ -1,5 +1,5 @@
 module.exports = number => {
-    switch(number) {
+    switch(parseInt(number)) {
         case 1: return "one";
         case 2: return "two";
         case 3: return "three";

@@ -14,4 +14,8 @@ describe('num to word', () => {
         var word = n2w("a");
         return word.should.equal(false);
     })
+    it('should return the word even if number comes as string', () => {
+        var word = n2w("13");
+        return word.should.equal("thirteen");
+    })
 });
