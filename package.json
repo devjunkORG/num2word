@@ -6,6 +6,12 @@
   "scripts": {
     "test": "mocha"
   },
+  "repository": {
+      "git": "https://github.com/devjunkORG/num2word.git"
+  },
   "author": "Vicente Canales <me@devjunk.org>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0"
+  }
 }
