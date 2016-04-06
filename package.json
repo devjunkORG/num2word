@@ -1,12 +1,12 @@
 {
   "name": "num-to-word",
-  "version": "0.0.1",
-  "description": "Number to word representation",
+  "version": "1.0.0",
+  "description": "Sixteen numbers is all I need",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
-  "repository": {
+  "respository": {
       "git": "https://github.com/devjunkORG/num2word.git"
   },
   "author": "Vicente Canales <me@devjunk.org>",
