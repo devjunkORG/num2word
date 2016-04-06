@@ -1,0 +1,11 @@
+{
+  "name": "num2word",
+  "version": "0.0.1",
+  "description": "Number to word representation",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Vicente Canales <me@devjunk.org>",
+  "license": "MIT"
+}
