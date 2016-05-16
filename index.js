@@ -1,3 +1,5 @@
+'use strict'
+
 module.exports = number => {
     switch(parseInt(number)) {
         case 1: return "one"; break;
