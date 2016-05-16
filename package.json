@@ -1,6 +1,6 @@
 {
   "name": "num-to-word",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Sixteen numbers is all I need",
   "main": "index.js",
   "scripts": {

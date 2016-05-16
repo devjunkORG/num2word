@@ -1,4 +1,4 @@
-module.exports = function() {
+module.exports = function(number) {
     switch(parseInt(number)) {
         case 1: return "one"; break;
         case 2: return "two"; break;
