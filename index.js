@@ -1,21 +1,29 @@
-module.exports = function(number) {
-    switch(parseInt(number)) {
-        case 1: return "one"; break;
-        case 2: return "two"; break;
-        case 3: return "three"; break;
-        case 4: return "four"; break;
-        case 5: return "five"; break;
-        case 6: return "six"; break;
-        case 7: return "seven"; break;
-        case 8: return "eight"; break;
-        case 9: return "nine"; break;
-        case 10: return "ten"; break;
-        case 11: return "eleven"; break;
-        case 12: return "twelve"; break;
-        case 13: return "thirteen"; break;
-        case 14: return "fourteen"; break;
-        case 15: return "fifteen"; break;
-        case 16: return "sixteen"; break;
-        default: return false;
+'use strict';
+
+const numbers = {
+    1: () => { return "one"; },
+    2: () => { return "two"; },
+    3: () => { return "three"; },
+    4: () => { return "four"; },
+    5: () => { return "five"; },
+    6: () => { return "six"; },
+    7: () => { return "seven"; },
+    8: () => { return "eight"; },
+    9: () => { return "nine"; },
+    10: () => { return "ten"; },
+    11: () => { return "eleven"; },
+    12: () => { return "twelve"; },
+    13: () => { return "thirteen"; },
+    14: () => { return "fourteen"; },
+    15: () => { return "fifteen"; },
+    16: () => { return "sixteen"; }
+};
+const translate = number => {
+    let n = parseInt(number);
+    if (typeof numbers[n] !== 'function') {
+        return false;
     }
-}
+    return numbers[n](n);
+};
+
+module.exports = translate;
